@@ -1,21 +1,21 @@
-#
+#cloud-config
 autoinstall:
     version: 1
     identity:
-        realname: 'Linux teste Socic '
+        realname: 'Socic S/A'
         hostname: ubuntu-desktop
         username: socic
         password: '$y$j9T$R6Uv6DCyXizrVsOr9Ix4d1$N5zhTWSSz8o6.IZiLRWkyKZ49uzCWx/I7HSbrQBl124'
-    locale :pt_BR.utf8
+    locale: pt_BR.utf8
     keyboard:
         layout: br
-    timezone: "America/Belem"
+    timezone: "America/Belem"   
     packages:
         - git
         - ssh
         - wine64
         - wget
-        - vfstp
+        - vsftpd
     snaps:
         - name: spotify
           channel: stable

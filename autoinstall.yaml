@@ -6,7 +6,7 @@ autoinstall:
         hostname: ubuntu-desktop
         username: socic
         password: '$y$j9T$R6Uv6DCyXizrVsOr9Ix4d1$N5zhTWSSz8o6.IZiLRWkyKZ49uzCWx/I7HSbrQBl124'
-    locale :pt_BR.utf8
+    locale: pt_BR.utf8
     keyboard:
         layout: br
     timezone: "America/Belem"
